@@ -18,15 +18,11 @@ h1 {
     text-align: center;
 }
 
-.topnav {
-    height: 100%;
-    width: 300px;
-}
 
 
 .topnav {
-    overflow: visible;
-    background-image: url(billeder/logo.png);
+    overflow: hidden;
+    background-color: #333;
 }
 
 .topnav a {
@@ -42,6 +38,9 @@ h1 {
 .active {
     background-color: rgba(196, 140, 252, 0.64);
     color: white;
+
+    background-image: url(billeder/logo.png);
+
 }
 
 .topnav .icon {
