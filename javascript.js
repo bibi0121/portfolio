@@ -1,9 +1,8 @@
-// Til menuen //
-function openNav() {
-    document.getElementById("navBar").style.width = "100%";
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
 }
-
-function closeNav() {
-    document.getElementById("navBar").style.width = "0%";
-}
-
