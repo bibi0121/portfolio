@@ -18,6 +18,12 @@ h1 {
     text-align: center;
 }
 
+.topnav a img{
+    height: 100%;
+    width: 300px;
+}
+
+
 .topnav {
     overflow: hidden;
     background-color: #333;
